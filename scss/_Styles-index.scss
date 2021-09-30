@@ -1,0 +1,71 @@
+#navcol-1-index {
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  color: rgb(252, 252, 252);
+  font-weight: bold;
+  margin-left: -107px;
+}
+
+.titulo {
+  font-family: Montserrat, sans-serif;
+  font-size: 43px;
+  color: #393838;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#seccion-ms {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mshero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+}
+
+@media (min-width: 768px) {
+  #seccion-ms {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/mshero.jpg") (center / cover) no-repeat, #ffffff;
+  }
+}
+
+#seccion-m3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/model3hero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+}
+
+@media (min-width: 768px) {
+  #seccion-m3 {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/model3hero.jpg") (center / cover) no-repeat, #ffffff;
+  }
+}
+
+#seccion-mx {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mxhero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+}
+
+@media (min-width: 768px) {
+  #seccion-mx {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/mxhero.jpg") (center / cover) no-repeat, #ffffff;
+  }
+}
+
+#seccion-my {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/myhero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+}
+
+@media (min-width: 768px) {
+  #seccion-my {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/myhero.jpg") (center / cover) no-repeat, #ffffff;
+  }
+}

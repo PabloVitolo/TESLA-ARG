@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tesla</title>
+    <meta name="description" content="el futuro es ahora"><!--SEO -->
+    <meta name="keywords" content="model 3, model s, model x, model y, ROADSTER, autos electricos"><!--SEO -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,600,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="./fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="./css/Styles.css">
+<body>
+    <section class="d-flex flex-column justify-content-start" id="seccion-ms">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid">
+                <!-- Comienza: Brand en letras como estrategia SEO --><a class="navbar-brand" href="./index.html">TESLA</a><!-- Finaliza: Brand en letras como estrategia SEO -->
+                <!-- Comienza: menu distintivo Mobile BS --><button data-bs-toggle="collapse" class="navbar-toggler border rounded border-dark" data-bs-target="#navcol-1" id="border-menu-mobile"><span class="visually-hidden">Toggle navigation</span><span class="shadow-sm" id="menuMobile">Menú</span></button><!-- Finaliza: menu distintivo Mobile BS -->
+                <div class="collapse navbar-collapse" id="navcol-1-index">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item navItem" id="modelS"><a class="nav-link active hvr-fade linkNav" data-bss-hover-animate="pulse" href="./models.html">Model <span class="sexy-nav">S</span></a></li>
+                        <li class="nav-item navItem"><a class="nav-link active" data-bss-hover-animate="pulse" href="./model3.html">Model <span class="sexy-nav">3</span></a></li>
+                        <li class="nav-item navItem"><a class="nav-link active hvr-fade linkNav" data-bss-hover-animate="pulse" href="./modelx.html">Model <span class="sexy-nav">X</span></a></li>
+                        <li class="nav-item"><a class="nav-link active hvr-fade linkNav" data-bss-hover-animate="pulse" href="./modely.html">Model <span class="sexy-nav">Y</span></a></li>
+                    </ul>
+                    <ul class="navbar-nav" id="navRoadster">
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active hvr-float-shadow navEnd" href="./Roadster.html">Roadster</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1 class="text-center titulo" data-aos="fade-up" data-aos-duration="700" data-aos-once="true"><a class="titulo" href="./models.html">Model S</a></h1>
+    </section>
+    <section class="d-flex flex-column justify-content-between" id="seccion-m3">
+        <h1 class="text-center titulo" data-aos="fade-up" data-aos-duration="700" data-aos-once="true" id="titulo-1"><a class="titulo" href="./model3.html">Model 3</a></h1>
+    </section>
+    <section class="d-flex flex-column justify-content-between" id="seccion-mx">
+        <h1 class="text-center titulo" data-aos="fade-up" data-aos-duration="700" data-aos-once="true" id="titulo-2"><a class="titulo" href="#">Model X</a></h1>
+    </section>
+    <section class="d-flex flex-column justify-content-between" id="seccion-my">
+        <h1 class="text-center titulo" data-aos="fade-up" data-aos-duration="700" data-aos-once="true" id="titulo-3"><a class="titulo" href="#">Model Y</a></h1>
+    </section>
+</section>
+<footer class="footer-basic">
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="./index.html">Home</a></li>
+        <li class="list-inline-item"><a href="#">Nosotros</a></li><!-- FALTA -->
+        <li class="list-inline-item"><a href="#" data-bs-target="#modal-2" data-bs-toggle="modal">Contacto</a></li>
+    </ul><!-- Finaliza: Links -->
+</footer><!-- Comienza: boton back to top BS --><a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image:url(&quot;./img/cd-top-arrow.svg&quot;);" href="#0">Top</a><!-- Finaliza: boton back to top BS -->
+<!-- Comienza: modal de contacto -->
+<div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body" id="modal2">
+                <section class="contact-clean">
+                    <form method="post">
+                        <h2 class="text-center">CONTACTO</h2>
+                        <div class="mb-3"><input class="form-control" type="text" placeholder="Nombre" autocomplete="on" inputmode="latin" autofocus=""></div>
+                        <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" autofocus="" autocomplete="on"></div>
+                        <div class="mb-3"><textarea class="form-control" name="message" placeholder="Mensaje" rows="14" autofocus="" autocomplete="on"></textarea></div>
+                        <div class="mb-3 col offset-xl-0 d-flex d-xl-flex justify-content-center align-self-center justify-content-xl-center d-grid gap-2"><button class="btn btn-primary" type="submit">ENVIAR</button></div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</div><!-- Finaliza: modal de contacto -->
+<script src="./js/jquery.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/bs-init.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="./js/Back-To-Top.js"></script>
+<script src="./js/Nav.js"></script>
+</body>
+</html>
