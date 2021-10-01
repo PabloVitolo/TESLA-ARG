@@ -16,7 +16,6 @@ body {
 }
 
 
-
 @media (min-width: 768px) {
   #hero-sexy {
     background: url("../img/mshero.jpg") (center / cover) no-repeat, #ffffff;
@@ -29,7 +28,7 @@ body {
 .navbar-brand {
   @include brand;
   line-height: 37px;
-  margin-right: -1px;
+  margin-right: -57px;
 }
 
 /*REUTILIZABLE*/
@@ -39,6 +38,7 @@ body {
   font-family: Montserrat, sans-serif;
   color: rgb(252, 252, 252);
   font-weight: bold;
+
 }
 
 .p-arriba {
