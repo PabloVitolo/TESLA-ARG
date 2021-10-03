@@ -274,7 +274,6 @@ body {
   }
 }
 
-/*REUTILIZABLE*/
 .navbar-brand {
   font-size: 22px;
   font-family: TESLA;
@@ -283,7 +282,6 @@ body {
   margin-right: -57px;
 }
 
-/*REUTILIZABLE*/
 #navcol-1 {
   font-size: 12px;
   font-family: Montserrat, sans-serif;
@@ -308,7 +306,6 @@ body {
   font-size: 15px;
 }
 
-/*REUTILIZABLE*/
 .boton-reserva {
   background: rgba(39, 128, 227, 0);
   font-family: Montserrat, sans-serif;
@@ -321,13 +318,11 @@ body {
   font-size: 33px;
 }
 
-/*REUTILIZABLE*/
 #hero-abajo .container {
   max-width: 700px;
   text-align: center;
 }
 
-/*REUTILIZABLE*/
 #subtitulo {
   font: bold 43px "Montserrat", sans-serif;
   color: #393838;
@@ -335,7 +330,6 @@ body {
   padding-top: 11px;
 }
 
-/*REUTILIZABLE*/
 #navRoadster {
   padding-top: 4px;
   padding-right: 9px;
@@ -355,7 +349,6 @@ body {
   border-color: rgba(255, 255, 255, 0.21);
 }
 
-/*REUTILIZABLE*/
 .boton-reserva {
   width: 219px;
   text-align: center;
@@ -368,7 +361,6 @@ body {
   padding-bottom: 6px;
 }
 
-/*REUTILIZABLE*/
 .sexy-nav {
   font-family: Montserrat, sans-serif;
   font-size: 18px;
@@ -376,7 +368,6 @@ body {
   line-height: 20px;
 }
 
-/*REUTILIZABLE*/
 #menuMobile {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -385,7 +376,6 @@ body {
   border-style: none;
 }
 
-/*REUTILIZABLE*/
 #border-menu-mobile {
   width: 57.1px;
   height: 24.2px;
@@ -403,7 +393,6 @@ body {
           box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  /*background: #e1e1e1;*/
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -614,7 +603,6 @@ body {
   }
 }
 
-/*MODEL-S*/
 #aero-sexy {
   width: 90%;
   height: 69vh;
@@ -753,7 +741,7 @@ body {
   opacity: 0.8;
 }
 
-#lineaVertical {
+.footer-basic #lineaVertical {
   height: 179px;
   width: 1px;
   margin: 0 auto;
@@ -763,7 +751,7 @@ body {
 }
 
 @media (min-width: 300px) {
-  #lineaVertical {
+  .footer-basic #lineaVertical {
     height: 98px;
     width: 1px;
     margin: 0 auto;
@@ -773,12 +761,11 @@ body {
   }
 }
 
-/* Barra de Navegacion tuneada */
-body.overflow-hidden {
+.footer-basic body.overflow-hidden {
   overflow: hidden;
 }
 
-#side-menu {
+.footer-basic #side-menu {
   display: none;
   position: fixed;
   width: 300px;
@@ -794,32 +781,32 @@ body.overflow-hidden {
   transition: 0.4s;
 }
 
-body.side-menu-visible #side-menu {
+.footer-basic body.side-menu-visible #side-menu {
   -webkit-transform: translateX(-300px);
           transform: translateX(-300px);
 }
 
-#side-menu .contents {
+.footer-basic #side-menu .contents {
   margin-top: 15px;
 }
 
-#side-menu .nav-link {
+.footer-basic #side-menu .nav-link {
   color: #333;
   font-size: 16px;
   font-weight: 600;
   padding: 12px 0;
 }
 
-#side-menu .nav-link:hover {
+.footer-basic #side-menu .nav-link:hover {
   opacity: 0.8;
 }
 
-#side-menu .close {
+.footer-basic #side-menu .close {
   font-size: 36px;
   font-weight: normal;
 }
 
-.side-menu-overlay {
+.footer-basic .side-menu-overlay {
   position: fixed;
   left: 0;
   top: 0;
@@ -830,25 +817,23 @@ body.side-menu-visible #side-menu {
   display: none;
 }
 
-#side-menu.side-menu-left {
+.footer-basic #side-menu.side-menu-left {
   right: auto;
   left: -300px;
 }
 
-body.side-menu-visible #side-menu.side-menu-left {
+.footer-basic body.side-menu-visible #side-menu.side-menu-left {
   -webkit-transform: translateX(300px);
           transform: translateX(300px);
 }
 
-#side-menu .close {
+.footer-basic #side-menu .close {
   font-size: 16px;
   border: none;
   border-radius: 21px;
 }
 
-/* fin de barra tuneada */
-/* boton volver arriba */
-.cd-top {
+.footer-basic .cd-top {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -869,34 +854,34 @@ body.side-menu-visible #side-menu.side-menu-left {
   border-width: 0px;
 }
 
-.cd-top.cd-top--show, .cd-top.cd-top--fade-out, .cd-top:hover {
+.footer-basic .cd-top.cd-top--show, .footer-basic .cd-top.cd-top--fade-out, .footer-basic .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
   transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
 }
 
-.cd-top.cd-top--show {
+.footer-basic .cd-top.cd-top--show {
   visibility: visible;
   opacity: 1;
 }
 
-.cd-top.cd-top--fade-out {
+.footer-basic .cd-top.cd-top--fade-out {
   opacity: .5;
 }
 
-.cd-top:hover {
+.footer-basic .cd-top:hover {
   background-color: rgba(232, 98, 86, 0);
   opacity: 1;
 }
 
 @media only screen and (min-width: 992px) {
-  .cd-top {
+  .footer-basic .cd-top {
     right: 20px;
     bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .cd-top {
+  .footer-basic .cd-top {
     height: 60px;
     width: 60px;
     right: 30px;
@@ -904,13 +889,12 @@ body.side-menu-visible #side-menu.side-menu-left {
   }
 }
 
-/* MODAL DE CONTACTO */
-.contact-clean {
+.footer-basic .contact-clean {
   background: #3a4249;
   padding: 55px 0;
 }
 
-.contact-clean form {
+.footer-basic .contact-clean form {
   max-width: 480px;
   width: 90%;
   margin: 0 auto;
@@ -923,7 +907,7 @@ body.side-menu-visible #side-menu.side-menu-left {
   background: #3e3232;
 }
 
-.contact-clean h2 {
+.footer-basic .contact-clean h2 {
   margin-top: 5px;
   font-weight: bold;
   font-size: 28px;
@@ -931,7 +915,7 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: inherit;
 }
 
-.contact-clean form .form-control {
+.footer-basic .contact-clean form .form-control {
   background: #fff;
   border-radius: 16px;
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
@@ -942,19 +926,19 @@ body.side-menu-visible #side-menu.side-menu-left {
   height: 42px;
 }
 
-.contact-clean form .form-control:focus {
+.footer-basic .contact-clean form .form-control:focus {
   border: 1px solid #b2b2b2;
   color: black;
 }
 
-.contact-clean form textarea.form-control {
+.footer-basic .contact-clean form textarea.form-control {
   min-height: 100px;
   max-height: 260px;
   padding-top: 10px;
   resize: vertical;
 }
 
-.contact-clean form .btn {
+.footer-basic .contact-clean form .btn {
   padding: 14px 32px;
   border: none;
   border-radius: 15px;
@@ -972,34 +956,34 @@ body.side-menu-visible #side-menu.side-menu-left {
   font-family: 'TESLA';
 }
 
-.contact-clean form .btn:hover {
+.footer-basic .contact-clean form .btn:hover {
   opacity: 1;
 }
 
-.contact-clean form .btn:active {
+.footer-basic .contact-clean form .btn:active {
   -webkit-transform: translateY(1px);
           transform: translateY(1px);
 }
 
-.contact-clean form .btn-primary {
+.footer-basic .contact-clean form .btn-primary {
   background-color: #980808 !important;
   margin-top: 15px;
   color: #fff;
 }
 
 @media (max-width: 767px) {
-  .contact-clean {
+  .footer-basic .contact-clean {
     padding: 20px 0;
   }
 }
 
 @media (max-width: 767px) {
-  .contact-clean form {
+  .footer-basic .contact-clean form {
     padding: 30px;
   }
 }
 
-#modal2 {
+.footer-basic #modal2 {
   width: 332px;
   margin: -19px 0px 0px -17px;
   margin-top: -14px;
@@ -1009,7 +993,7 @@ body.side-menu-visible #side-menu.side-menu-left {
 }
 
 @media (min-width: 300px) {
-  #modal2 {
+  .footer-basic #modal2 {
     width: 391px;
     margin: -50px -5px 0px -17px;
     margin-top: -20px;
