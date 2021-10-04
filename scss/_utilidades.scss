@@ -1,4 +1,4 @@
-/*mixin para estilos sexy-roadster*/
+//mixin para estilos sexy-roadster
 @mixin basestyle-roadster {
     color: $color-roadster;
     background: $background-roadster;
@@ -12,7 +12,7 @@
 }
 
 
-/*mixin para estilos de marca banner*/
+//mixin para estilos de marca banner
 @mixin brand {
     font-size: 22px;
     font-family: TESLA;

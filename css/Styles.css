@@ -1,5 +1,3 @@
-/*mixin para estilos sexy-roadster*/
-/*mixin para estilos de marca banner*/
 #body-roadster {
   color: #ffffff;
   background: black;
@@ -83,6 +81,7 @@
 
 #stats-roadster .table {
   color: #f8fcff;
+  text-align: start;
 }
 
 @media (min-width: 768px) {
@@ -193,7 +192,6 @@
   margin-top: -50px;
 }
 
-/* boton volver arriba */
 #backToTop-roadster .cd-top {
   display: inline-block;
   height: 40px;
@@ -274,21 +272,19 @@ body {
   }
 }
 
-/*REUTILIZABLE*/
 .navbar-brand {
   font-size: 22px;
   font-family: TESLA;
   letter-spacing: 5px;
   line-height: 37px;
-  margin-right: -57px;
 }
 
-/*REUTILIZABLE*/
 #navcol-1 {
   font-size: 12px;
   font-family: Montserrat, sans-serif;
   color: #fcfcfc;
   font-weight: bold;
+  margin-left: -16px !important;
 }
 
 .p-arriba {
@@ -308,7 +304,6 @@ body {
   font-size: 15px;
 }
 
-/*REUTILIZABLE*/
 .boton-reserva {
   background: rgba(39, 128, 227, 0);
   font-family: Montserrat, sans-serif;
@@ -321,13 +316,11 @@ body {
   font-size: 33px;
 }
 
-/*REUTILIZABLE*/
 #hero-abajo .container {
   max-width: 700px;
   text-align: center;
 }
 
-/*REUTILIZABLE*/
 #subtitulo {
   font: bold 43px "Montserrat", sans-serif;
   color: #393838;
@@ -335,7 +328,6 @@ body {
   padding-top: 11px;
 }
 
-/*REUTILIZABLE*/
 #navRoadster {
   padding-top: 4px;
   padding-right: 9px;
@@ -355,7 +347,6 @@ body {
   border-color: rgba(255, 255, 255, 0.21);
 }
 
-/*REUTILIZABLE*/
 .boton-reserva {
   width: 219px;
   text-align: center;
@@ -368,7 +359,6 @@ body {
   padding-bottom: 6px;
 }
 
-/*REUTILIZABLE*/
 .sexy-nav {
   font-family: Montserrat, sans-serif;
   font-size: 18px;
@@ -376,7 +366,6 @@ body {
   line-height: 20px;
 }
 
-/*REUTILIZABLE*/
 #menuMobile {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -385,7 +374,6 @@ body {
   border-style: none;
 }
 
-/*REUTILIZABLE*/
 #border-menu-mobile {
   width: 57.1px;
   height: 24.2px;
@@ -403,7 +391,6 @@ body {
           box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  /*background: #e1e1e1;*/
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -588,7 +575,12 @@ body {
   color: black;
 }
 
-#stats thead th, #stats .datosIzq {
+#stats thead th {
+  text-align: left;
+  padding-left: 0px;
+}
+
+#stats .datosIzq {
   text-align: left;
   padding-left: 0px;
 }
@@ -614,7 +606,6 @@ body {
   }
 }
 
-/*MODEL-S*/
 #aero-sexy {
   width: 90%;
   height: 69vh;
@@ -768,12 +759,11 @@ body {
     width: 1px;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.33);
-    margin-top: 171px;
+    margin-top: 133px;
     border-color: #000000;
   }
 }
 
-/* Barra de Navegacion tuneada */
 body.overflow-hidden {
   overflow: hidden;
 }
@@ -846,8 +836,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   border-radius: 21px;
 }
 
-/* fin de barra tuneada */
-/* boton volver arriba */
 .cd-top {
   display: inline-block;
   height: 40px;
@@ -904,7 +892,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   }
 }
 
-/* MODAL DE CONTACTO */
 .contact-clean {
   background: #3a4249;
   padding: 55px 0;
@@ -1008,6 +995,10 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: rgba(255, 255, 255, 0);
 }
 
+#modal2 .modal-dialog {
+  margin: 5.5rem;
+}
+
 @media (min-width: 300px) {
   #modal2 {
     width: 391px;
@@ -1098,12 +1089,13 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 #vistaDearriba-m3 {
   width: 100%;
-  height: 70vh;
-  background: url("../img/m3transparent.png") center/cover no-repeat;
+  height: 100vh;
+  background: url("../img/m3transparent.png") center/contain no-repeat;
+  margin-top: -229px;
 }
 
 #vistaDearriba-m3 .container {
-  margin-bottom: -176px;
+  margin-bottom: -90px;
 }
 
 #navcol-1-index {
@@ -1115,11 +1107,10 @@ body.side-menu-visible #side-menu.side-menu-left {
 }
 
 .titulo {
-  font-family: Montserrat, sans-serif;
-  font-size: 43px;
+  font: bold 43px "Montserrat", sans-serif;
   color: #393838;
-  font-weight: bold;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 #seccion-ms {

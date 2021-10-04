@@ -23,21 +23,21 @@ body {
   }
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 .navbar-brand {
   @include brand;
   line-height: 37px;
-  margin-right: -57px;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 #navcol-1 {
   font-size: 12px;
   font-family: Montserrat, sans-serif;
   color: rgb(252, 252, 252);
   font-weight: bold;
+  margin-left: -16px !important;
 
 }
 
@@ -58,7 +58,7 @@ body {
   font-size: 15px;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 .boton-reserva {
   background: rgba(39, 128, 227, 0);
@@ -72,14 +72,14 @@ body {
   font-size: 33px;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 #hero-abajo .container {
   max-width: 700px;
   text-align: center;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 #subtitulo {
   font: $fonthero;
@@ -88,7 +88,7 @@ body {
   padding-top: 11px;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 #navRoadster {
   padding-top: 4px;
@@ -109,7 +109,7 @@ body {
   border-color: rgba(255, 255, 255, 0.21);
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 .boton-reserva {
   width: 219px;
@@ -123,7 +123,7 @@ body {
   padding-bottom: 6px;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 .sexy-nav {
   font-family: Montserrat, sans-serif;
@@ -132,7 +132,7 @@ body {
   line-height: 20px;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 #menuMobile {
   font-family: Montserrat, sans-serif;
@@ -142,7 +142,7 @@ body {
   border-style: none;
 }
 
-/*REUTILIZABLE*/
+//REUTILIZABLE
 
 #border-menu-mobile {
   width: 57.1px;
@@ -161,7 +161,7 @@ body {
   position: relative;
   overflow: hidden;
 
-  /*background: #e1e1e1;*/
+  //background: #e1e1e1;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -329,7 +329,12 @@ body {
   margin-bottom: 30px;
   color: rgb(0, 0, 0);
 
-  thead th, .datosIzq {
+  thead th {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .datosIzq {
     text-align: left;
     padding-left: 0px;
   }
@@ -355,7 +360,7 @@ body {
     margin-top: 36px;
   }
 }
-/*MODEL-S*/
+//MODEL-S
 #aero-sexy {
   width: 90%;
   height: 69vh;
@@ -511,12 +516,12 @@ body {
     width: 1px;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.33);
-    margin-top: 171px;
+    margin-top: 133px;
     border-color: #000000;
   }
 }
 
-/* Barra de Navegacion tuneada */
+//Barra de Navegacion tuneada
 
 body.overflow-hidden {
   overflow: hidden;
@@ -589,9 +594,9 @@ body.side-menu-visible #side-menu.side-menu-left {
   border-radius: 21px;
 }
 
-/* fin de barra tuneada */
+//fin de barra tuneada
 
-/* boton volver arriba */
+//boton volver arriba
 
 .cd-top {
   display: inline-block;
@@ -649,7 +654,7 @@ body.side-menu-visible #side-menu.side-menu-left {
   }
 }
 
-/* MODAL DE CONTACTO */
+//MODAL DE CONTACTO
 
 .contact-clean {
   background: #3a4249;
@@ -750,6 +755,10 @@ body.side-menu-visible #side-menu.side-menu-left {
   margin-right: 4px;
   margin-bottom: -9px;
   color: rgba(255, 255, 255, 0);
+
+  .modal-dialog {
+    margin: 5.5rem;
+}  
 }
 
 @media (min-width: 300px) {

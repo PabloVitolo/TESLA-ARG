@@ -7,11 +7,10 @@
 }
 
 .titulo {
-  font-family: Montserrat, sans-serif;
-  font-size: 43px;
-  color: #393838;
-  font-weight: bold;
+  font: $fonthero;
+  color: $colorhero;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 #seccion-ms {
