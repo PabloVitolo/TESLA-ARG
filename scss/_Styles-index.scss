@@ -3,7 +3,13 @@
   font-family: Montserrat, sans-serif;
   color: rgb(252, 252, 252);
   font-weight: bold;
-  margin-left: -107px;
+  margin-left: -60px;
+}
+
+@media (min-width: 768px) {
+  #oculto {
+    display: none;
+  }
 }
 
 .titulo {

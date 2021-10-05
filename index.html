@@ -14,14 +14,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="./css/Styles.css">
 <body>
-    <section>
-        <div class="d-flex flex-column justify-content-start" id="seccion-ms">
+    <main>
+        <section class="d-flex flex-column justify-content-start" id="seccion-ms">
             <nav class="navbar navbar-light navbar-expand-md">
                 <div class="container-fluid">
                     <!-- Comienza: Brand en letras como estrategia SEO --><a class="navbar-brand" href="./index.html">TESLA</a><!-- Finaliza: Brand en letras como estrategia SEO -->
                     <!-- Comienza: menu distintivo Mobile BS --><button data-bs-toggle="collapse" class="navbar-toggler border rounded border-dark" data-bs-target="#navcol-1" id="border-menu-mobile"><span class="visually-hidden">Toggle navigation</span><span class="shadow-sm" id="menuMobile">Menú</span></button><!-- Finaliza: menu distintivo Mobile BS -->
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="navbar-nav mx-auto" id="navRoadster">
+                    <div class="collapse navbar-collapse" id="navcol-1-index">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item navItem" id="modelS"><a class="nav-link active hvr-fade linkNav" data-bss-hover-animate="pulse" href="./models.html">Model <span class="sexy-nav">S</span></a></li>
+                            <li class="nav-item navItem"><a class="nav-link active" data-bss-hover-animate="pulse" href="./model3.html">Model <span class="sexy-nav">3</span></a></li>
+                            <li class="nav-item navItem"><a class="nav-link active hvr-fade linkNav" data-bss-hover-animate="pulse" href="./modelx.html">Model <span class="sexy-nav">X</span></a></li>
+                            <li class="nav-item"><a class="nav-link active hvr-fade linkNav" data-bss-hover-animate="pulse" href="./modely.html">Model <span class="sexy-nav">Y</span></a></li>
+                        </ul>
+                        <ul class="navbar-nav d-flex flex-column" id="navRoadster">
                             <li class="nav-item"></li>
                             <li class="nav-item"></li>
                         </ul>
@@ -32,7 +38,7 @@
                 </div>
             </nav>
             <h2 class="text-center titulo" data-aos="fade-up" data-aos-duration="700" data-aos-once="true"><a class="titulo" href="./models.html">Model S</a></h2>
-        </div>
+        </section>
         <div class="d-flex flex-column justify-content-between" id="seccion-m3">
             <h2 class="text-center titulo" data-aos="fade-up" data-aos-duration="700" data-aos-once="true" id="titulo-1"><a class="titulo" href="./model3.html">Model 3</a></h2>
         </div>
@@ -42,7 +48,6 @@
         <div class="d-flex flex-column justify-content-between" id="seccion-my">
             <h2 class="text-center titulo" data-aos="fade-up" data-aos-duration="700" data-aos-once="true" id="titulo-3"><a class="titulo" href="#">Model Y</a></h2>
         </div>
-        </div>
         <footer class="footer-basic">
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="./index.html">Home</a></li>
@@ -51,24 +56,26 @@
             </ul>
         </footer><!-- Comienza: boton back to top BS --><a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image:url(&quot;./img/cd-top-arrow.svg&quot;);" href="#0">Top</a><!-- Finaliza: boton back to top BS -->
         <!-- Comienza: modal de contacto -->
-        <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
-            <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body" id="modal2">
-                        <div class="contact-clean">
-                            <form method="post">
-                                <h2 class="text-center">CONTACTO</h2>
-                                <div class="mb-3"><input class="form-control" type="text" placeholder="Nombre" autocomplete="on" inputmode="latin" autofocus=""></div>
-                                <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" autofocus="" autocomplete="on"></div>
-                                <div class="mb-3"><textarea class="form-control" name="message" placeholder="Mensaje" rows="14" autofocus="" autocomplete="on"></textarea></div>
-                                <div class="mb-3 col offset-xl-0 d-flex d-xl-flex justify-content-center align-self-center justify-content-xl-center d-grid gap-2"><button class="btn btn-primary" type="submit">ENVIAR</button></div>
-                            </form>
+        <section>
+            <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+                <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body" id="modal2">
+                            <div class="contact-clean">
+                                <form method="post">
+                                    <h2 class="text-center">CONTACTO</h2>
+                                    <div class="mb-3"><input class="form-control" type="text" placeholder="Nombre" autocomplete="on" inputmode="latin" autofocus=""></div>
+                                    <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" autofocus="" autocomplete="on"></div>
+                                    <div class="mb-3"><textarea class="form-control" name="message" placeholder="Mensaje" rows="14" autofocus="" autocomplete="on"></textarea></div>
+                                    <div class="mb-3 col offset-xl-0 d-flex d-xl-flex justify-content-center align-self-center justify-content-xl-center d-grid gap-2"><button class="btn btn-primary" type="submit">ENVIAR</button></div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div><!-- Finaliza: modal de contacto -->    
-    </section>
+            </div><!-- Finaliza: modal de contacto -->
+        </section>        
+    </main>
     <script src="./js/jquery.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script src="./js/bs-init.js"></script>
