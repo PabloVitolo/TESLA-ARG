@@ -16,76 +16,37 @@
 
   #aero-m3 {
     width: 90%;
-    height: 69vh;
-    background: url("../img/m3-black.jpg") (center / contain) no-repeat;
-    margin-bottom: 185px;
-    margin-left: 20px;
+    height: 70vh;
+    background: url(../img/m3-black.jpg) center/contain no-repeat;
+    margin-bottom: 248px;
+    margin-top: 84px;
+    margin-left: 33px;
       
     .container {
-      margin-top: 431px;
+      margin-top: 550px;
       color: rgb(0, 0, 0);
     }
   }
 
-  @media (min-width: 576px) {
-    #aero-m3 {
-      width: 90%;
-      height: 85vh;
-      background: url("../img/m3-black.jpg") (center / contain) no-repeat;
-      margin-bottom: 84px;
-      margin-left: 20px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    #aero-m3 {
-      width: 92%;
-      height: 67vh;
-      background: url("../img/m3-black.jpg") (center / cover) no-repeat;
-      margin-bottom: 92px;
-      margin-right: 0px;
-      margin-left: 36px;
-      margin-top: -42px;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    #aero-m3 .container {
-      margin-top: 518px;
-      color: rgb(0, 0, 0);
-    }
-  }
-  
-  @media (min-width: 992px) {
-    #aero-m3 .container {
-      margin-top: 432px;
-      color: rgb(255, 255, 255);
-    }
-  }
-  
-  @media (min-width: 300px) {
-    #aero-m3 h3 {
-      text-align: center;
-    }
-  }
-  
-  @media (min-width: 300px) {
-    #aero-m3 p {
-      text-align: center;
-    }
-  }
-  
-  #vistaDearriba-m3 {
+    #vistaDearriba-m3 {
       width: 100%;
       height: 100vh;
-      background: url("../img/m3transparent.png") (center / cover) no-repeat;
+      background: url("../img/m3transparent-mobile.png") (center / contain) no-repeat;
       
 
       .container {
-      margin-bottom: -90px;
+      margin-bottom: 102px;
     }
-  }   
+  }  
 
+  #lineaVertical-m3 {
+    height: 179px;
+    width: 1px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.33);
+    margin-top: -50px;
+    border-color: #000000;
+}
 
   
 
