@@ -484,41 +484,37 @@ body {
   border-color: #765b5b;
   border-radius: 35px;
   margin-left: 22px;
+  margin-right: 88px;
 }
 
 .modal-p {
   color: #440d0d;
   font-family: TESLA;
-  font-size: 24px;
-  line-height: 10px;
-  letter-spacing: 5px;
-  width: 292px;
-  margin: 1px;
-  margin-bottom: -1px;
-  margin-left: 52px;
+  letter-spacing: 1px;
+  margin-bottom: -6px;
+  margin-left: 1px;
 }
 
 .modal-content {
   background-color: #fff0;
+  border-color: #fff0;
+  margin-left: 34px;
 }
 
 #videoConTabla-sexy {
   text-align: center;
-  margin-bottom: -304px;
-  margin-top: 40px;
 }
 
 #videoConTabla-sexy iframe {
   width: 90%;
   margin-top: 38px;
-  margin-bottom: 28px;
   height: 300px;
 }
 
 #stats {
   width: 90%;
-  margin: 25px auto;
-  color: black;
+  margin: 0px auto;
+  margin-bottom: 30px;
 }
 
 #stats thead th {
@@ -544,17 +540,17 @@ body {
 #aero-sexy {
   width: 100%;
   height: 100vh;
-  background: url("../img/msinterior-carousel.jpg") center/cover no-repeat;
+  background: url("../img/msprofile.jpg") center/cover no-repeat;
 }
 
 #aero-sexy .container {
-  margin-top: 490px;
-  color: black;
+  margin-top: 677px;
+  color: white;
 }
 
 @media (min-width: 768px) {
   #aero-sexy .container {
-    margin-top: 920px;
+    margin-top: 677px;
     color: whitesmoke;
   }
 }
@@ -562,8 +558,7 @@ body {
 #interior-sexy {
   width: 100%;
   height: 60vh;
-  margin-top: -470px;
-  margin-bottom: -359px;
+  margin-top: 30px;
 }
 
 #interior-sexy .figure {
@@ -583,12 +578,12 @@ body {
 
 #vistaDearriba-sexy {
   width: 100%;
-  height: 100vh;
+  height: 32vh;
   background: url("../img/mstransparent.png") center/cover no-repeat;
 }
 
 #vistaDearriba-sexy .container {
-  margin-bottom: -176px;
+  margin-bottom: -270px;
 }
 
 .footer-basic {
@@ -633,7 +628,7 @@ body {
   width: 1px;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.33);
-  margin-top: 171px;
+  margin-top: 246px;
   border-color: #000000;
 }
 
@@ -767,7 +762,7 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 .contact-clean {
   background: #3a4249;
-  padding: 55px 0;
+  padding: 16px 0;
 }
 
 .contact-clean form {
@@ -861,7 +856,7 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 #modal2 {
   width: 332px;
-  margin: -19px 0px 0px -17px;
+  margin: -19px 0px 0px 17px;
   margin-top: -14px;
   margin-right: 4px;
   margin-bottom: -9px;
@@ -874,7 +869,7 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 @media (min-width: 768px) {
   #aero-sexy {
-    margin-bottom: 950px;
+    margin-bottom: 300px;
   }
 }
 
@@ -882,7 +877,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   #stats {
     width: 600px;
     margin: 0 auto;
-    margin-bottom: 400px;
     font-size: 15px;
   }
 }
@@ -891,6 +885,25 @@ body.side-menu-visible #side-menu.side-menu-left {
   #videoConTabla-sexy iframe {
     width: 915px;
     height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  #vistaDearriba-sexy {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #vistaDearriba-sexy {
+    height: 90vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #aero-sexy .container {
+    margin-top: 850px;
+    color: whitesmoke;
   }
 }
 
@@ -908,27 +921,71 @@ body.side-menu-visible #side-menu.side-menu-left {
 }
 
 #aero-m3 {
-  width: 90%;
-  height: 70vh;
-  background: url(../img/m3-black.jpg) center/contain no-repeat;
-  margin-bottom: 248px;
-  margin-top: 84px;
-  margin-left: 33px;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/m3-black.jpg) center/cover no-repeat;
 }
 
 #aero-m3 .container {
-  margin-top: 550px;
+  margin-top: 677px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #aero-m3 {
+    margin-bottom: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  #aero-m3 .container {
+    margin-top: 677px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1200px) {
+  #aero-m3 .container {
+    margin-top: 850px;
+    color: whitesmoke;
+  }
+}
+
+#interior-m3 {
+  width: 100%;
+  height: 60vh;
+  margin-top: 30px;
+}
+
+#interior-m3 .figure {
+  max-width: 90%;
+}
+
+#interior-m3 figcaption {
   color: black;
+  padding-top: 12px;
 }
 
 #vistaDearriba-m3 {
   width: 100%;
-  height: 100vh;
-  background: url("../img/m3transparent-mobile.png") center/contain no-repeat;
+  height: 32vh;
+  background: url("../img/m3transparent.png") center/cover no-repeat;
 }
 
 #vistaDearriba-m3 .container {
-  margin-bottom: 102px;
+  margin-bottom: -270px;
+}
+
+@media (min-width: 768px) {
+  #vistaDearriba-m3 {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #vistaDearriba-m3 {
+    height: 90vh;
+  }
 }
 
 #lineaVertical-m3 {
@@ -936,7 +993,7 @@ body.side-menu-visible #side-menu.side-menu-left {
   width: 1px;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.33);
-  margin-top: -50px;
+  margin-top: 250px;
   border-color: #000000;
 }
 
@@ -1007,4 +1064,230 @@ body.side-menu-visible #side-menu.side-menu-left {
     height: 100vh;
     background: url("../img/myhero.jpg") center/cover no-repeat, #ffffff;
   }
+}
+
+#hero-mx {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mxhero-mobile.jpg") center/cover no-repeat, #ffffff;
+}
+
+@media (min-width: 768px) {
+  #hero-mx {
+    background: url("../img/mxhero.jpg") center/cover no-repeat, #ffffff;
+    margin-bottom: 38px;
+  }
+}
+
+#hero-abajo-mx .container {
+  max-width: 700px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.p-arriba-mx {
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: white;
+}
+
+.p-abajo-mx {
+  font-size: 13px;
+  color: white;
+}
+
+.p-arriba-mx span {
+  font-size: 15px;
+}
+
+#aero-mx {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/mxprofile.jpg) center/cover no-repeat;
+}
+
+#aero-mx .container {
+  margin-top: 677px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #aero-mx {
+    margin-bottom: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  #aero-mx .container {
+    margin-top: 677px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1200px) {
+  #aero-mx .container {
+    margin-top: 850px;
+    color: whitesmoke;
+  }
+}
+
+#interior-mx {
+  width: 100%;
+  height: 60vh;
+  margin-top: 30px;
+}
+
+#interior-mx .figure {
+  max-width: 90%;
+}
+
+#interior-mx figcaption {
+  color: black;
+  padding-top: 12px;
+}
+
+#vistaDearriba-mx {
+  width: 100%;
+  height: 32vh;
+  background: url("../img/mxtransparent.png") center/cover no-repeat;
+}
+
+#vistaDearriba-mx .container {
+  margin-bottom: -270px;
+}
+
+@media (min-width: 768px) {
+  #vistaDearriba-mx {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #vistaDearriba-mx {
+    height: 90vh;
+  }
+}
+
+#lineaVertical-mx {
+  height: 179px;
+  width: 1px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.33);
+  margin-top: 250px;
+  border-color: #000000;
+}
+
+#hero-my {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/myhero-mobile.jpg") center/cover no-repeat, #ffffff;
+}
+
+@media (min-width: 768px) {
+  #hero-my {
+    background: url("../img/myhero.jpg") center/cover no-repeat, #ffffff;
+    margin-bottom: 38px;
+  }
+}
+
+#hero-abajo-my .container {
+  max-width: 700px;
+  text-align: center;
+  color: #000000;
+}
+
+.p-arriba-my {
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: black;
+}
+
+.p-abajo-my {
+  font-size: 13px;
+  color: black;
+}
+
+.p-arriba-my span {
+  font-size: 15px;
+}
+
+#aero-my {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/myprofile.jpg) center/cover no-repeat;
+}
+
+#aero-my .container {
+  margin-top: 677px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #aero-my {
+    margin-bottom: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  #aero-my .container {
+    margin-top: 677px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1200px) {
+  #aero-my .container {
+    margin-top: 850px;
+    color: whitesmoke;
+  }
+}
+
+#interior-my {
+  width: 100%;
+  height: 60vh;
+  margin-top: 30px;
+}
+
+#interior-my .figure {
+  max-width: 90%;
+}
+
+#interior-my figcaption {
+  color: black;
+  padding-top: 12px;
+}
+
+#vistaDearriba-my {
+  width: 100%;
+  height: 32vh;
+  background: url("../img/mytransparent.png") center/cover no-repeat;
+}
+
+#vistaDearriba-my .container {
+  margin-bottom: -270px;
+}
+
+@media (min-width: 768px) {
+  #vistaDearriba-my {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #vistaDearriba-my {
+    height: 90vh;
+  }
+}
+
+#lineaVertical-my {
+  height: 179px;
+  width: 1px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.33);
+  margin-top: 250px;
+  border-color: #000000;
 }

@@ -1,23 +1,46 @@
 
-#hero-m3 {
+#hero-my {
     width: 100%;
     height: 100vh;
-    background: url("../img/model3hero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+    background: url("../img/myhero-mobile.jpg") (center / cover) no-repeat, #ffffff;
 }
 
     
   @media (min-width: 768px) {
-    #hero-m3 {
-      background: url("../img/model3hero.jpg") (center / cover) no-repeat, #ffffff;
+    #hero-my {
+      background: url("../img/myhero.jpg") (center / cover) no-repeat, #ffffff;
       margin-bottom: 38px;
     }
   }
 
- 
-  #aero-m3 {
+  #hero-abajo-my .container {
+    max-width: 700px;
+    text-align: center;
+    color: #000000
+  }
+  .p-arriba-my {
+    font-size: 26px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  .p-abajo-my {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .p-arriba-my span {
+    font-size: 15px;
+  }
+
+
+
+  #aero-my {
     width: 100%;
     height: 100vh;
-    background: url(../img/m3-black.jpg) center/cover no-repeat;
+    background: url(../img/myprofile.jpg) center/cover no-repeat;
 
     .container {
       margin-top: 677px;
@@ -26,27 +49,27 @@
   }
 
   @media (min-width: 768px) {
-    #aero-m3 {
+    #aero-my {
    margin-bottom: 300px;
   }
   }
 
 
   @media (min-width: 768px) {
-    #aero-m3 .container {
+    #aero-my .container {
       margin-top: 677px;
       color: rgb(245, 245, 245);
     }
   }
 
   @media (min-width: 1200px) {
-    #aero-m3 .container {
+    #aero-my .container {
       margin-top: 850px;
       color: rgb(245, 245, 245);
     }
   }
 
-  #interior-m3 {
+  #interior-my {
     width: 100%;
     height: 60vh;
     margin-top: 30px;
@@ -61,10 +84,10 @@
     }
   }
 
-    #vistaDearriba-m3 {
+    #vistaDearriba-my {
       width: 100%;
       height: 32vh;
-      background: url("../img/m3transparent.png") (center / cover) no-repeat;
+      background: url("../img/mytransparent.png") (center / cover) no-repeat;
       
       .container {
       margin-bottom: -270px;
@@ -72,18 +95,18 @@
   }  
 
   @media (min-width: 768px) {
-    #vistaDearriba-m3 {
+    #vistaDearriba-my {
       height: 80vh;
     } 
     }  
     
     @media (min-width: 1200px) { 
-      #vistaDearriba-m3 {
+      #vistaDearriba-my {
         height: 90vh;
       } 
     }
 
-  #lineaVertical-m3 {
+  #lineaVertical-my {
     height: 179px;
     width: 1px;
     margin: 0 auto;
