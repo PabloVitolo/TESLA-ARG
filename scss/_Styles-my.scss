@@ -18,6 +18,7 @@
     text-align: center;
     color: #000000
   }
+
   .p-arriba-my {
     font-size: 26px;
     font-family: Montserrat, sans-serif;
@@ -31,10 +32,12 @@
     color: rgb(0, 0, 0);
   }
   
-  .p-arriba-my span {
+  .p-arriba-my {
+  
+    span {
     font-size: 15px;
+    }
   }
-
 
 
   #aero-my {
@@ -50,8 +53,8 @@
 
   @media (min-width: 768px) {
     #aero-my {
-   margin-bottom: 300px;
-  }
+    margin-bottom: 300px;
+    }
   }
 
 

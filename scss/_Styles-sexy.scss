@@ -74,10 +74,12 @@ body {
 
 //REUTILIZABLE
 
-#hero-abajo .container {
+#hero-abajo {
+  .container {
   max-width: 700px;
   text-align: center;
-}
+  }
+}  
 
 //REUTILIZABLE
 
@@ -416,9 +418,11 @@ body.overflow-hidden {
   transition: 0.4s;
 }
 
-body.side-menu-visible #side-menu {
+body.side-menu-visible {
+  #side-menu {
   transform: translateX(-300px);
-}
+  }
+}  
 
 #side-menu {
   .contents {
@@ -462,11 +466,13 @@ body.side-menu-visible #side-menu.side-menu-left {
   transform: translateX(300px);
 }
 
-#side-menu .close {
+#side-menu {
+  .close {
   font-size: 16px;
   border: none;
   border-radius: 21px;
-}
+  }
+}  
 
 //fin de barra tuneada
 
@@ -644,10 +650,10 @@ body.side-menu-visible #side-menu.side-menu-left {
 }
 @media (min-width: 768px) {
   #stats{
-width: 600px;
-margin: 0 auto;
-font-size: 15px;
-}
+  width: 600px;
+  margin: 0 auto;
+  font-size: 15px;
+  }
 }    
 
 @media (min-width: 768px) {
@@ -662,7 +668,7 @@ font-size: 15px;
 @media (min-width: 768px) {
 #vistaDearriba-sexy {
   height: 80vh;
-} 
+  } 
 }  
 
 @media (min-width: 1200px) { 

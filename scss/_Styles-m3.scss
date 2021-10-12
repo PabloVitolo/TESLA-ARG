@@ -33,16 +33,22 @@
 
 
   @media (min-width: 768px) {
-    #aero-m3 .container {
-      margin-top: 677px;
-      color: rgb(245, 245, 245);
-    }
+    #aero-m3{ 
+    
+      .container {
+        margin-top: 677px;
+        color: rgb(245, 245, 245);
+      }
+    }  
   }
 
   @media (min-width: 1200px) {
-    #aero-m3 .container {
+    #aero-m3{ 
+    
+      .container {
       margin-top: 850px;
       color: rgb(245, 245, 245);
+      }
     }
   }
 
