@@ -1291,3 +1291,50 @@ body.side-menu-visible #side-menu.side-menu-left {
   margin-top: 250px;
   border-color: #000000;
 }
+
+.s3xy {
+  width: 100%;
+  background: url("/img/tesla-sexy-mobile.jpg") center/cover no-repeat;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .s3xy {
+    width: 100%;
+    background: url("/img/tesla-sexy.jpg") center/cover no-repeat;
+    height: 100vh;
+  }
+}
+
+.plot {
+  color: white;
+  text-align: center;
+}
+
+.plot2 {
+  text-align: center;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .videoFsd {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+#galery {
+  margin-top: -97px;
+}
+
+#about {
+  margin-top: 20px;
+}
+
+#lineaVertical-about {
+  height: 120px;
+  width: 1px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.33);
+  border-color: #000000;
+}
