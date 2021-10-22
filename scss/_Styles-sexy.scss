@@ -15,6 +15,14 @@ body {
   background: url("../img/mshero-mobile.jpg") (center / cover) no-repeat, #ffffff;
 }
 
+    
+@media (min-width: 768px) {
+  #hero-sexy {
+    background: url("../img/mshero.jpg") (center / cover) no-repeat, #ffffff;
+    margin-bottom: 38px;
+  }
+}
+
 
 //REUTILIZABLE
 
@@ -327,7 +335,7 @@ body {
 
 #vistaDearriba-sexy {
   width: 100%;
-  height: 32vh;
+  height: 38vh;
   background: url("../img/mstransparent.png") (center / cover) no-repeat;
 
   .container {
@@ -462,6 +470,11 @@ body.side-menu-visible #side-menu.side-menu-left {
 }  
 
 //fin de barra tuneada
+
+
+#volverAtras {
+  @include brand;
+}
 
 //boton volver arriba
 
@@ -627,4 +640,71 @@ body.side-menu-visible #side-menu.side-menu-left {
     margin: 5.5rem;
 }  
 }
+
+
+@media (min-width: 576px) {
+  #interior-sexy {
+    margin-top: 70px;
+  }
+
+  #videoConTabla-sexy {
+    
+    iframe {
+      width: 72%;
+      height: 247px;
+    }
+}
+}
+
+@media (min-width: 768px) {
+  #interior-sexy {
+    margin-top: 138px;
+  }
+
+  #vistaDearriba-sexy {
+    margin-top:50px;
+    height: 53vh;
+  }
+
+  #videoConTabla-sexy {
+    
+    iframe {
+      width: 60%;
+      height: 285px;
+    }
+  } 
+
+}
+
+@media (min-width: 992px) {
+  #interior-sexy {
+    margin-top: 230px;
+  }
+  
+  #vistaDearriba-sexy{
+    margin-top:180px;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #interior-sexy {
+    margin-top: 380px;
+  }
+
+  #vistaDearriba-sexy{
+    margin-top:180px;
+    height: 85vh;
+  }
+
+  #videoConTabla-sexy {
+    
+    iframe {
+      width: 38%;
+      height: 270px;
+    }
+  }
+
+}
+
 

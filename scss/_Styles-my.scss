@@ -35,3 +35,19 @@
       margin-bottom: -270px;
     }
   }  
+
+  @media (min-width: 768px) {
+  
+    #vistaDearriba-my {
+      margin-top:50px;
+      height: 40vh;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  
+    #vistaDearriba-my{
+      margin-top:180px;
+      height: 70vh;
+    }
+  }

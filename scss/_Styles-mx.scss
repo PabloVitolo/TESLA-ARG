@@ -13,31 +13,32 @@
     }
   }
 
-  #hero-abajo-mx .container {
-    max-width: 700px;
-    text-align: center;
-    color: #ffffff
+  #hero-abajo-mx {
+    .container {
+      max-width: 700px;
+      text-align: center;
+      color: #ffffff
   }
 
-  .p-arriba-mx {
-    font-size: 26px;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    margin-bottom: 0;
-    color: rgb(255, 255, 255);
-  }
-  
-  .p-abajo-mx {
-    font-size: 13px;
-    color: rgb(255, 255, 255);
-  }
-  
-  .p-arriba-mx{ 
-  
-    span {
-    font-size: 15px;
+    .p-arriba-mx {
+      font-size: 26px;
+      font-family: Montserrat, sans-serif;
+      font-weight: bold;
+      margin-bottom: 0;
+      color: rgb(255, 255, 255);
     }
-  }  
+    
+    .p-abajo-mx {
+      font-size: 13px;
+      color: rgb(255, 255, 255);
+    }
+    
+    .p-arriba-mx{ 
+      span {
+      font-size: 15px;
+      }
+    }
+  }    
 
 
   #aero-mx {
@@ -51,21 +52,6 @@
     }
   }
 
-  #interior-mx {
-    width: 100%;
-    height: 60vh;
-    margin-top: 30px;
-  
-    .figure {
-      max-width: 90%;
-    }
-  
-    figcaption {
-      color: rgb(0, 0, 0);
-      padding-top: 12px;
-    }
-  }
-
     #vistaDearriba-mx {
       width: 100%;
       height: 32vh;
@@ -75,3 +61,20 @@
       margin-bottom: -270px;
     }
   }  
+
+  @media (min-width: 768px) {
+  
+    #vistaDearriba-mx {
+      margin-top:50px;
+      height: 30vh;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  
+    #vistaDearriba-mx{
+      margin-top:180px;
+      height: 50vh;
+    }
+  }
+

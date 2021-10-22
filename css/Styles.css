@@ -265,6 +265,13 @@ body {
   background: url("../img/mshero-mobile.jpg") center/cover no-repeat, #ffffff;
 }
 
+@media (min-width: 768px) {
+  #hero-sexy {
+    background: url("../img/mshero.jpg") center/cover no-repeat, #ffffff;
+    margin-bottom: 38px;
+  }
+}
+
 .navbar-brand {
   font-size: 22px;
   font-family: TESLA;
@@ -564,7 +571,7 @@ body {
 
 #vistaDearriba-sexy {
   width: 100%;
-  height: 32vh;
+  height: 38vh;
   background: url("../img/mstransparent.png") center/cover no-repeat;
 }
 
@@ -688,6 +695,12 @@ body.side-menu-visible #side-menu.side-menu-left {
   font-size: 16px;
   border: none;
   border-radius: 21px;
+}
+
+#volverAtras {
+  font-size: 22px;
+  font-family: TESLA;
+  letter-spacing: 5px;
 }
 
 .cd-top {
@@ -853,6 +866,54 @@ body.side-menu-visible #side-menu.side-menu-left {
   margin: 5.5rem;
 }
 
+@media (min-width: 576px) {
+  #interior-sexy {
+    margin-top: 70px;
+  }
+  #videoConTabla-sexy iframe {
+    width: 72%;
+    height: 247px;
+  }
+}
+
+@media (min-width: 768px) {
+  #interior-sexy {
+    margin-top: 138px;
+  }
+  #vistaDearriba-sexy {
+    margin-top: 50px;
+    height: 53vh;
+  }
+  #videoConTabla-sexy iframe {
+    width: 60%;
+    height: 285px;
+  }
+}
+
+@media (min-width: 992px) {
+  #interior-sexy {
+    margin-top: 230px;
+  }
+  #vistaDearriba-sexy {
+    margin-top: 180px;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #interior-sexy {
+    margin-top: 380px;
+  }
+  #vistaDearriba-sexy {
+    margin-top: 180px;
+    height: 85vh;
+  }
+  #videoConTabla-sexy iframe {
+    width: 38%;
+    height: 270px;
+  }
+}
+
 #hero-m3 {
   width: 100%;
   height: 100vh;
@@ -885,6 +946,20 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 #vistaDearriba-m3 .container {
   margin-bottom: -270px;
+}
+
+@media (min-width: 768px) {
+  #vistaDearriba-m3 {
+    margin-top: 50px;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #vistaDearriba-m3 {
+    margin-top: 180px;
+    height: 90vh;
+  }
 }
 
 .titulo {
@@ -969,7 +1044,7 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: #ffffff;
 }
 
-.p-arriba-mx {
+#hero-abajo-mx .p-arriba-mx {
   font-size: 26px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -977,12 +1052,12 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: white;
 }
 
-.p-abajo-mx {
+#hero-abajo-mx .p-abajo-mx {
   font-size: 13px;
   color: white;
 }
 
-.p-arriba-mx span {
+#hero-abajo-mx .p-arriba-mx span {
   font-size: 15px;
 }
 
@@ -997,21 +1072,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: white;
 }
 
-#interior-mx {
-  width: 100%;
-  height: 60vh;
-  margin-top: 30px;
-}
-
-#interior-mx .figure {
-  max-width: 90%;
-}
-
-#interior-mx figcaption {
-  color: black;
-  padding-top: 12px;
-}
-
 #vistaDearriba-mx {
   width: 100%;
   height: 32vh;
@@ -1020,6 +1080,20 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 #vistaDearriba-mx .container {
   margin-bottom: -270px;
+}
+
+@media (min-width: 768px) {
+  #vistaDearriba-mx {
+    margin-top: 50px;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #vistaDearriba-mx {
+    margin-top: 180px;
+    height: 50vh;
+  }
 }
 
 #hero-my {
@@ -1056,6 +1130,20 @@ body.side-menu-visible #side-menu.side-menu-left {
   margin-bottom: -270px;
 }
 
+@media (min-width: 768px) {
+  #vistaDearriba-my {
+    margin-top: 50px;
+    height: 40vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #vistaDearriba-my {
+    margin-top: 180px;
+    height: 70vh;
+  }
+}
+
 .s3xy {
   width: 100%;
   background: url("/img/tesla-sexy-mobile.jpg") center/cover no-repeat;
@@ -1088,17 +1176,10 @@ body.side-menu-visible #side-menu.side-menu-left {
 }
 
 #galery {
-  margin-top: -97px;
+  margin-top: -116px;
+  margin-bottom: -238px;
 }
 
 #about {
   margin-top: 20px;
-}
-
-#lineaVertical-about {
-  height: 120px;
-  width: 1px;
-  margin: 0 auto;
-  background: rgba(0, 0, 0, 0.33);
-  border-color: #000000;
 }
