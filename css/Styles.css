@@ -265,13 +265,6 @@ body {
   background: url("../img/mshero-mobile.jpg") center/cover no-repeat, #ffffff;
 }
 
-@media (min-width: 768px) {
-  #hero-sexy {
-    background: url("../img/mshero.jpg") center/cover no-repeat, #ffffff;
-    margin-bottom: 38px;
-  }
-}
-
 .navbar-brand {
   font-size: 22px;
   font-family: TESLA;
@@ -508,7 +501,7 @@ body {
 #videoConTabla-sexy iframe {
   width: 90%;
   margin-top: 38px;
-  height: 300px;
+  height: 215px;
 }
 
 #stats {
@@ -544,15 +537,8 @@ body {
 }
 
 #aero-sexy .container {
-  margin-top: 677px;
+  margin-top: 620px;
   color: white;
-}
-
-@media (min-width: 768px) {
-  #aero-sexy .container {
-    margin-top: 677px;
-    color: whitesmoke;
-  }
 }
 
 #interior-sexy {
@@ -624,11 +610,11 @@ body {
 }
 
 #lineaVertical {
-  height: 179px;
+  height: 115px;
   width: 1px;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.33);
-  margin-top: 246px;
+  margin-top: 277px;
   border-color: #000000;
 }
 
@@ -867,46 +853,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   margin: 5.5rem;
 }
 
-@media (min-width: 768px) {
-  #aero-sexy {
-    margin-bottom: 300px;
-  }
-}
-
-@media (min-width: 768px) {
-  #stats {
-    width: 600px;
-    margin: 0 auto;
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 768px) {
-  #videoConTabla-sexy iframe {
-    width: 915px;
-    height: 500px;
-  }
-}
-
-@media (min-width: 768px) {
-  #vistaDearriba-sexy {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  #vistaDearriba-sexy {
-    height: 90vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  #aero-sexy .container {
-    margin-top: 850px;
-    color: whitesmoke;
-  }
-}
-
 #hero-m3 {
   width: 100%;
   height: 100vh;
@@ -931,41 +877,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: white;
 }
 
-@media (min-width: 768px) {
-  #aero-m3 {
-    margin-bottom: 300px;
-  }
-}
-
-@media (min-width: 768px) {
-  #aero-m3 .container {
-    margin-top: 677px;
-    color: whitesmoke;
-  }
-}
-
-@media (min-width: 1200px) {
-  #aero-m3 .container {
-    margin-top: 850px;
-    color: whitesmoke;
-  }
-}
-
-#interior-m3 {
-  width: 100%;
-  height: 60vh;
-  margin-top: 30px;
-}
-
-#interior-m3 .figure {
-  max-width: 90%;
-}
-
-#interior-m3 figcaption {
-  color: black;
-  padding-top: 12px;
-}
-
 #vistaDearriba-m3 {
   width: 100%;
   height: 32vh;
@@ -974,33 +885,6 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 #vistaDearriba-m3 .container {
   margin-bottom: -270px;
-}
-
-@media (min-width: 768px) {
-  #vistaDearriba-m3 {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  #vistaDearriba-m3 {
-    height: 90vh;
-  }
-}
-
-#lineaVertical-m3 {
-  height: 179px;
-  width: 1px;
-  margin: 0 auto;
-  background: rgba(0, 0, 0, 0.33);
-  margin-top: 250px;
-  border-color: #000000;
-}
-
-@media (min-width: 768px) {
-  #oculto {
-    visibility: hidden;
-  }
 }
 
 .titulo {
@@ -1016,18 +900,30 @@ body.side-menu-visible #side-menu.side-menu-left {
   background: url("../img/mshero-mobile.jpg") center/cover no-repeat, #ffffff;
 }
 
+#seccion-m3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/model3hero-mobile.jpg") center/cover no-repeat, #ffffff;
+}
+
+#seccion-mx {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mxhero-mobile.jpg") center/cover no-repeat, #ffffff;
+}
+
+#seccion-my {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/myhero-mobile.jpg") center/cover no-repeat, #ffffff;
+}
+
 @media (min-width: 768px) {
   #seccion-ms {
     width: 100%;
     height: 100vh;
     background: url("../img/mshero.jpg") center/cover no-repeat, #ffffff;
   }
-}
-
-#seccion-m3 {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/model3hero-mobile.jpg") center/cover no-repeat, #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -1038,24 +934,12 @@ body.side-menu-visible #side-menu.side-menu-left {
   }
 }
 
-#seccion-mx {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/mxhero-mobile.jpg") center/cover no-repeat, #ffffff;
-}
-
 @media (min-width: 768px) {
   #seccion-mx {
     width: 100%;
     height: 100vh;
     background: url("../img/mxhero.jpg") center/cover no-repeat, #ffffff;
   }
-}
-
-#seccion-my {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/myhero-mobile.jpg") center/cover no-repeat, #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -1113,26 +997,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: white;
 }
 
-@media (min-width: 768px) {
-  #aero-mx {
-    margin-bottom: 300px;
-  }
-}
-
-@media (min-width: 768px) {
-  #aero-mx .container {
-    margin-top: 677px;
-    color: whitesmoke;
-  }
-}
-
-@media (min-width: 1200px) {
-  #aero-mx .container {
-    margin-top: 850px;
-    color: whitesmoke;
-  }
-}
-
 #interior-mx {
   width: 100%;
   height: 60vh;
@@ -1158,27 +1022,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   margin-bottom: -270px;
 }
 
-@media (min-width: 768px) {
-  #vistaDearriba-mx {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  #vistaDearriba-mx {
-    height: 90vh;
-  }
-}
-
-#lineaVertical-mx {
-  height: 179px;
-  width: 1px;
-  margin: 0 auto;
-  background: rgba(0, 0, 0, 0.33);
-  margin-top: 250px;
-  border-color: #000000;
-}
-
 #hero-my {
   width: 100%;
   height: 100vh;
@@ -1192,29 +1035,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   }
 }
 
-#hero-abajo-my .container {
-  max-width: 700px;
-  text-align: center;
-  color: #000000;
-}
-
-.p-arriba-my {
-  font-size: 26px;
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  margin-bottom: 0;
-  color: black;
-}
-
-.p-abajo-my {
-  font-size: 13px;
-  color: black;
-}
-
-.p-arriba-my span {
-  font-size: 15px;
-}
-
 #aero-my {
   width: 100%;
   height: 100vh;
@@ -1226,41 +1046,6 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: white;
 }
 
-@media (min-width: 768px) {
-  #aero-my {
-    margin-bottom: 300px;
-  }
-}
-
-@media (min-width: 768px) {
-  #aero-my .container {
-    margin-top: 677px;
-    color: whitesmoke;
-  }
-}
-
-@media (min-width: 1200px) {
-  #aero-my .container {
-    margin-top: 850px;
-    color: whitesmoke;
-  }
-}
-
-#interior-my {
-  width: 100%;
-  height: 60vh;
-  margin-top: 30px;
-}
-
-#interior-my .figure {
-  max-width: 90%;
-}
-
-#interior-my figcaption {
-  color: black;
-  padding-top: 12px;
-}
-
 #vistaDearriba-my {
   width: 100%;
   height: 32vh;
@@ -1269,27 +1054,6 @@ body.side-menu-visible #side-menu.side-menu-left {
 
 #vistaDearriba-my .container {
   margin-bottom: -270px;
-}
-
-@media (min-width: 768px) {
-  #vistaDearriba-my {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  #vistaDearriba-my {
-    height: 90vh;
-  }
-}
-
-#lineaVertical-my {
-  height: 179px;
-  width: 1px;
-  margin: 0 auto;
-  background: rgba(0, 0, 0, 0.33);
-  margin-top: 250px;
-  border-color: #000000;
 }
 
 .s3xy {

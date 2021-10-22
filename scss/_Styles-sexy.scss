@@ -16,13 +16,6 @@ body {
 }
 
 
-@media (min-width: 768px) {
-  #hero-sexy {
-    background: url("../img/mshero.jpg") (center / cover) no-repeat, #ffffff;
-    margin-bottom: 38px;
-  }
-}
-
 //REUTILIZABLE
 
 .navbar-brand {
@@ -265,7 +258,7 @@ body {
   iframe {
     width: 90%;
     margin-top: 38px;
-    height: 300px;
+    height: 215px;
   }
 }
 
@@ -305,17 +298,11 @@ body {
   background: url("../img/msprofile.jpg") (center / cover) no-repeat;
 
   .container {
-    margin-top: 677px;
+    margin-top: 620px;
     color: rgb(255, 255, 255);
   }
 }
 
-@media (min-width: 768px) {
-  #aero-sexy .container {
-    margin-top: 677px;
-    color: rgb(245, 245, 245);
-  }
-}
 
 #interior-sexy {
   width: 100%;
@@ -389,11 +376,11 @@ body {
 }
 
 #lineaVertical {
-  height: 179px;
+  height: 115px;
   width: 1px;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.33);
-  margin-top: 246px;
+  margin-top: 277px;
   border-color: #000000;
 }
 
@@ -641,45 +628,3 @@ body.side-menu-visible #side-menu.side-menu-left {
 }  
 }
 
-//MEDIAS QUERIES
-
-@media (min-width: 768px) {
-  #aero-sexy {
- margin-bottom: 300px;
-}
-}
-@media (min-width: 768px) {
-  #stats{
-  width: 600px;
-  margin: 0 auto;
-  font-size: 15px;
-  }
-}    
-
-@media (min-width: 768px) {
-  #videoConTabla-sexy{
-    iframe{
-    width: 915px;
-    height: 500px;
-    }
-  }
-}  
-
-@media (min-width: 768px) {
-#vistaDearriba-sexy {
-  height: 80vh;
-  } 
-}  
-
-@media (min-width: 1200px) { 
-  #vistaDearriba-sexy {
-    height: 90vh;
-  } 
-}
-
-@media (min-width: 1200px) {
-  #aero-sexy .container {
-    margin-top: 850px;
-    color: rgb(245, 245, 245);
-  }
-}

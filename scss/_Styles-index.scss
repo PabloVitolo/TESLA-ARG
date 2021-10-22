@@ -1,11 +1,3 @@
-
-//no visible en mas de 768px pero visible en menu retractil mobile-
-@media (min-width: 768px) {
-  #oculto {
-    visibility: hidden;
-  }
-}
-
 .titulo {
   font: $fonthero;
   color: $colorhero;
@@ -19,6 +11,27 @@
   background: url("../img/mshero-mobile.jpg") (center / cover) no-repeat, #ffffff;
 }
 
+
+#seccion-m3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/model3hero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+}
+
+
+#seccion-mx {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mxhero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+}
+
+
+#seccion-my {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/myhero-mobile.jpg") (center / cover) no-repeat, #ffffff;
+}
+
 @media (min-width: 768px) {
   #seccion-ms {
     width: 100%;
@@ -27,11 +40,6 @@
   }
 }
 
-#seccion-m3 {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/model3hero-mobile.jpg") (center / cover) no-repeat, #ffffff;
-}
 
 @media (min-width: 768px) {
   #seccion-m3 {
@@ -39,12 +47,6 @@
     height: 100vh;
     background: url("../img/model3hero.jpg") (center / cover) no-repeat, #ffffff;
   }
-}
-
-#seccion-mx {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/mxhero-mobile.jpg") (center / cover) no-repeat, #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -55,11 +57,6 @@
   }
 }
 
-#seccion-my {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/myhero-mobile.jpg") (center / cover) no-repeat, #ffffff;
-}
 
 @media (min-width: 768px) {
   #seccion-my {
@@ -68,3 +65,4 @@
     background: url("../img/myhero.jpg") (center / cover) no-repeat, #ffffff;
   }
 }
+
